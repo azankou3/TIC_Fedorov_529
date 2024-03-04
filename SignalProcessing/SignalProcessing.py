@@ -85,14 +85,73 @@ def pict2(text, x, y):
     fig.savefig("./figures/" + title + ".png", dpi=600)
     plt.show()
 
-pict2("Сигнал з кроком дискретизації Dt = (2, 4, 8, 16)", x, discrete_signals)
+#
+# pict2("Сигнал з кроком дискретизації Dt = (2, 4, 8, 16)", x, discrete_signals)
+#
+# pict2("Спектр сигналу з кроком дискретизації Dt = (2, 4, 8, 16)", frq2, discrete_signals_spectrums)
+#
+# pict2("Відновлені аналогові сигнали з кроком дискретизації Dt = (2, 4, 8, 16)", x, discrete_signals_FH4)
+#
+# pict("Залежність дисперсії від кроку дискретизації",
+#      [2,4,8,16], discrete_signals_disp, "крок дискретизації", "Дисперсія")
+#
+# pict("Залежність співвідношення сигнал-шум від кроку дискретизації",
+#      [2,4,8,16], discrete_signals_noise, "крок дискретизації", "ССШ")
 
-pict2("Спектр сигналу з кроком дискретизації Dt = (2, 4, 8, 16)", frq2, discrete_signals_spectrums)
 
-pict2("Відновлені аналогові сигнали з кроком дискретизації Dt = (2, 4, 8, 16)", x, discrete_signals_FH4)
+quantum_signals = []
+quantum_signals_disp = []
+quantum_signals_noise = []
+for M in [4,16,64,256]:
+    bits = []
+    delta = (np.max(y) - np.min(y)) / (M - 1)
+    quantize_signal = delta * np.round(y / delta)
+    quantum_signals += [list(quantize_signal)]
+    quantize_levels = np.arange(np.min(quantize_signal), np.max(quantize_signal)+1, delta)
+    quantize_bit = np.arange(0, M)
+    quantize_bit = [format(bits, '0' + str(int(np.log(M) / np.log(2))) + 'b') for bits in quantize_bit]
+    quantize_table = np.c_[quantize_levels[:M], quantize_bit[:M]]
 
-pict("Залежність дисперсії від кроку дискретизації",
-     [2,4,8,16], discrete_signals_disp, "крок дискретизації", "Дисперсія")
+    fig, ax = plt.subplots(figsize=(14 / 2.54, M / 2.54))
+    table = ax.table(cellText=quantize_table, colLabels=['Значення сигналу', 'Кодова послідовність'], loc='center')
+    table.set_fontsize(14)
+    table.scale(1, 2)
+    ax.axis('off')
+    title = f"Таблиця квантування для {M} рівнів"
+    fig.savefig("./figures/" + title + ".png", dpi=600)
+    plt.show()
 
-pict("Залежність співвідношення сигнал-шум від кроку дискретизації",
-     [2,4,8,16], discrete_signals_noise, "крок дискретизації", "ССШ")
+    for signal_value in quantize_signal:
+        for index, value in enumerate(quantize_levels[:M]):
+            if np.round(np.abs(signal_value - value), 0) == 0:
+                bits.append(quantize_bit[index])
+                break
+
+    bits = [int(item) for item in list(''.join(bits))]
+
+    fig, ax = plt.subplots(figsize=(21 / 2.54, 14 / 2.54))
+    x_bits = np.arange(0, len(bits))
+    y_bits = bits
+    ax.step(x_bits, y_bits, linewidth=0.1)
+
+    title = f"Кодова послідовність сигналу при кількості рівнів квантування {M}"
+    fig.supxlabel("Біти", fontsize=14)
+    fig.supylabel("Амплітуда сигналу", fontsize=14)
+    fig.suptitle(title, fontsize=14)
+    fig.savefig("./figures/" + title + ".png", dpi=600)
+    plt.show()
+
+    El = quantize_signal - y
+    D = np.var(El)
+    quantum_signals_disp += [D]
+    snr = np.var(y) / D
+    quantum_signals_noise += [snr]
+
+pict2("Цифрові сигнали за рівнями квантування (4, 16, 64, 256)", x, quantum_signals)
+
+pict("Залежність дисперсії від кількості рівнів квантування",
+     [4, 16, 64, 256], quantum_signals_disp, "Кількість рівнів квантування", "Дисперсія")
+
+pict("Залежність співвідношення сигнал-шум від кількості рівнів квантування",
+     [4, 16, 64, 256], quantum_signals_noise, "Кількість рівнів квантування", "ССШ")
+
