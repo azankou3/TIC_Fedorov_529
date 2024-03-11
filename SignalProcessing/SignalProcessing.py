@@ -3,13 +3,39 @@ import scipy.signal
 import matplotlib.pyplot as plt
 from scipy import signal, fft
 
+
+def pict(text, x, y, xLabel, yLabel):
+    title = text
+    fig, ax = plt.subplots(figsize=(21, 14))
+    ax.plot(x, y, linewidth=1)
+    ax.set_xlabel(xLabel, fontsize=14)
+    ax.set_ylabel(yLabel, fontsize=14)
+    plt.title(title, fontsize=14)
+    plt.show()
+    fig.savefig("./figures/" + title + ".png", dpi=600)
+
+
+def pict2(text, x, y):
+    title = text
+    fig, ax = plt.subplots(2, 2, figsize=(16/2.54, 14/2.54))
+    s = 0
+    for i in range(0, 2):
+        for j in range(0, 2):
+            ax[i][j].plot(x, y[s], linewidth=1)
+            s += 1
+    fig.supxlabel("Час (секунди)", fontsize=14)
+    fig.supylabel("Амплітуда сигналу", fontsize=14)
+    fig.suptitle(title, fontsize=14)
+    fig.savefig("./figures/" + title + ".png", dpi=600)
+    plt.show()
+
+
 Fs = 1000
 F_max = 29
 F_filter = 36
 n = 500
 a = 0
 b = 10
-
 
 random = np.random.normal(a, b, n)
 x = np.arange(n)/Fs
@@ -33,19 +59,8 @@ length_signal = n
 frq = scipy.fft.fftfreq(length_signal, 1/length_signal)
 frq2 = scipy.fft.fftshift(frq)
 
-def pict(text, x, y, xLabel, yLabel):
-    title = text
-    fig, ax = plt.subplots(figsize=(21, 14))
-    ax.plot(x, y, linewidth=1)
-    ax.set_xlabel(xLabel, fontsize=14)
-    ax.set_ylabel(yLabel, fontsize=14)
-    plt.title(title, fontsize=14)
-    plt.show()
-    fig.savefig("./figures/" + title + ".png", dpi=600)
-
 # pict(f"Спектр сигналу з максимальною частотою F_max = {F_max} Гц",
 #      frq2, spectr, "Частота (Гц)", "Амплітуда спектру" )
-
 
 discrete_signals = []
 discrete_signals_spectrums = []
@@ -69,21 +84,6 @@ for Dt in [2, 4, 8, 16]:
     discrete_signals_disp += [D]
     snr = np.var(y)/D
     discrete_signals_noise += [snr]
-
-
-def pict2(text, x, y):
-    title = text
-    fig, ax = plt.subplots(2, 2, figsize=(16/2.54, 14/2.54))
-    s = 0
-    for i in range(0, 2):
-        for j in range(0, 2):
-            ax[i][j].plot(x, y[s], linewidth=1)
-            s += 1
-    fig.supxlabel("Час (секунди)", fontsize=14)
-    fig.supylabel("Амплітуда сигналу", fontsize=14)
-    fig.suptitle(title, fontsize=14)
-    fig.savefig("./figures/" + title + ".png", dpi=600)
-    plt.show()
 
 #
 # pict2("Сигнал з кроком дискретизації Dt = (2, 4, 8, 16)", x, discrete_signals)
@@ -147,11 +147,12 @@ for M in [4,16,64,256]:
     snr = np.var(y) / D
     quantum_signals_noise += [snr]
 
-pict2("Цифрові сигнали за рівнями квантування (4, 16, 64, 256)", x, quantum_signals)
+# pict2("Цифрові сигнали за рівнями квантування (4, 16, 64, 256)", x, quantum_signals)
+#
+# pict("Залежність дисперсії від кількості рівнів квантування",
+#      [4, 16, 64, 256], quantum_signals_disp, "Кількість рівнів квантування", "Дисперсія")
+#
+# pict("Залежність співвідношення сигнал-шум від кількості рівнів квантування",
+#      [4, 16, 64, 256], quantum_signals_noise, "Кількість рівнів квантування", "ССШ")
 
-pict("Залежність дисперсії від кількості рівнів квантування",
-     [4, 16, 64, 256], quantum_signals_disp, "Кількість рівнів квантування", "Дисперсія")
-
-pict("Залежність співвідношення сигнал-шум від кількості рівнів квантування",
-     [4, 16, 64, 256], quantum_signals_noise, "Кількість рівнів квантування", "ССШ")
 
