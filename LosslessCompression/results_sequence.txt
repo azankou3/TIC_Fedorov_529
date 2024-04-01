@@ -1,0 +1,80 @@
+Sequence: 0000000000000000000000100100001000000110001000001000000001000000000100001010000000000000000001011000 
+ Length sequence: 100 byte 
+ Length alphabet: 2 
+ Probability symbols: 0=0.8600, 1=0.1400 
+Mean probability: 0.50 
+ Symbol count: non uniformity 
+ Entropy:  0.5842 
+ Source excess: 0.42 
+ 
+
+Sequence: fedorov000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+ Length sequence: 100 byte 
+ Length alphabet: 7 
+ Probability symbols: f=0.0100, e=0.0100, d=0.0100, o=0.0200, r=0.0100, v=0.0100, 0=0.9300 
+Mean probability: 0.14 
+ Symbol count: non uniformity 
+ Entropy:  0.5424 
+ Source excess: 0.81 
+ 
+
+Sequence: 000000000000000000000000000000000000000o0000000000o0000r00000de00f000000000000000000000000000v000000 
+ Length sequence: 100 byte 
+ Length alphabet: 7 
+ Probability symbols: 0=0.9300, o=0.0200, r=0.0100, d=0.0100, e=0.0100, f=0.0100, v=0.0100 
+Mean probability: 0.14 
+ Symbol count: non uniformity 
+ Entropy:  0.5424 
+ Source excess: 0.81 
+ 
+
+Sequence: fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529 
+ Length sequence: 100 byte 
+ Length alphabet: 9 
+ Probability symbols: f=0.1000, e=0.1000, d=0.1000, o=0.2000, r=0.1000, v=0.1000, 5=0.1000, 2=0.1000, 9=0.1000 
+Mean probability: 0.11 
+ Symbol count: non uniformity 
+ Entropy:  3.1219 
+ Source excess: 0.02 
+ 
+
+Sequence: 955e5ff99e5999fe5eef229925ffff225e9effff5ef25e9e22fe999ff525e5ee5e2f2295f52ee252f225999555922eef99e2 
+ Length sequence: 100 byte 
+ Length alphabet: 5 
+ Probability symbols: 9=0.2000, 5=0.2000, e=0.2000, f=0.2000, 2=0.2000 
+Mean probability: 0.20 
+ Symbol count: uniformity 
+ Entropy:  2.3219 
+ Source excess: 0.00 
+ 
+
+Sequence: 5eef9efeefefefff9ffe2f2e5f29fe5efeee2efefe5fee9f95e55e5fff22ffef2f2eeefefe2ee5effff2f99e9feeff99ee5f 
+ Length sequence: 100 byte 
+ Length alphabet: 5 
+ Probability symbols: 5=0.1000, e=0.3500, f=0.3500, 9=0.1000, 2=0.1000 
+Mean probability: 0.20 
+ Symbol count: non uniformity 
+ Entropy:  2.0568 
+ Source excess: 0.11 
+ 
+
+Sequence: nuttmn0t36boe9891957xs1q94hoj32jyhwvolizmre0qoha9i19h83s3u98d6edz04faiwl9z5xx7vdjosxncovaim7ta4ptna7 
+ Length sequence: 100 byte 
+ Length alphabet: 34 
+ Probability symbols: n=0.0400, u=0.0200, t=0.0500, m=0.0300, 0=0.0300, 3=0.0400, 6=0.0200, b=0.0100, o=0.0600, e=0.0300, 9=0.0800, 8=0.0300, 1=0.0300, 5=0.0200, 7=0.0400, x=0.0400, s=0.0300, q=0.0200, 4=0.0300, h=0.0400, j=0.0300, 2=0.0100, y=0.0100, w=0.0200, v=0.0300, l=0.0200, i=0.0400, z=0.0300, r=0.0100, a=0.0500, d=0.0300, f=0.0100, c=0.0100, p=0.0100 
+Mean probability: 0.03 
+ Symbol count: non uniformity 
+ Entropy:  4.8935 
+ Source excess: 0.04 
+ 
+
+Sequence: 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 
+ Length sequence: 100 byte 
+ Length alphabet: 1 
+ Probability symbols: 1=1.0000 
+Mean probability: 1.00 
+ Symbol count: uniformity 
+ Entropy:  -0.0000 
+ Source excess: 1.00 
+ 
+

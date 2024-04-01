@@ -1,0 +1,488 @@
+
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+original_sequence: 0000000000000000000000100100001000000110001000001000000001000000000100001010000000000000000001011000
+Len(sequence): 1600 [bits]
+entropy: 0.584238811642856
+
+RLE coding
+coded RLE: 2201120114011602130115011801190114011101118011102130
+len(coded): 832 [bits]
+compression_ratio_RLE: 1.92
+decoded_RLE: 0000000000000000000000100100001000000110001000001000000001000000000100001010000000000000000001011000
+len(decoded_RLE): 1600 [bits]
+
+Code: 48, Element: 0,bits: 16
+Code: 65536, Element: 00,bits: 17
+Code: 65537, Element: 000,bits: 17
+Code: 65538, Element: 0000,bits: 17
+Code: 65539, Element: 00000,bits: 17
+Code: 65540, Element: 000000,bits: 17
+Code: 48, Element: 0,bits: 16
+Code: 49, Element: 1,bits: 16
+Code: 65536, Element: 00,bits: 17
+Code: 65543, Element: 10,bits: 17
+Code: 65537, Element: 000,bits: 17
+Code: 65545, Element: 100,bits: 17
+Code: 65538, Element: 0000,bits: 17
+Code: 49, Element: 1,bits: 16
+Code: 65547, Element: 1000,bits: 17
+Code: 65547, Element: 1000,bits: 17
+Code: 65544, Element: 001,bits: 17
+Code: 65541, Element: 0000000,bits: 17
+Code: 65542, Element: 01,bits: 17
+Code: 65553, Element: 00000000,bits: 17
+Code: 65554, Element: 010,bits: 17
+Code: 65546, Element: 0001,bits: 17
+Code: 65556, Element: 0100,bits: 17
+Code: 65555, Element: 000000000,bits: 17
+Code: 65541, Element: 0000000,bits: 17
+Code: 65543, Element: 10,bits: 17
+Code: 65549, Element: 11,bits: 17
+Code: 65537, Element: 000, Bits: 17
+Coded LZW:48655366553765538655396554048496553665543655376554565538496554765547655446554165542655536555465546655566555565541655436554965537 
+Len Coded LZW: 472 [bits] 
+compression_ratio_LZW: 3.39
+Decoded LZW: 0000000000000000000000100100001000000110001000001000000001000000000100001010000000000000000001011000
+len(Decoded LZW): 1600 [bits]
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+original_sequence: fedorov000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Len(sequence): 1600 [bits]
+entropy: 0.5424384954442554
+
+RLE coding
+coded RLE: 1f1e1d1o1r1o1v930
+len(coded): 272 [bits]
+compression_ratio_RLE: 5.88
+decoded_RLE: fedorov000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+len(decoded_RLE): 1600 [bits]
+
+Code: 102, Element: f,bits: 16
+Code: 101, Element: e,bits: 16
+Code: 100, Element: d,bits: 16
+Code: 111, Element: o,bits: 16
+Code: 114, Element: r,bits: 16
+Code: 111, Element: o,bits: 16
+Code: 118, Element: v,bits: 16
+Code: 48, Element: 0,bits: 16
+Code: 65543, Element: 00,bits: 17
+Code: 65544, Element: 000,bits: 17
+Code: 65545, Element: 0000,bits: 17
+Code: 65546, Element: 00000,bits: 17
+Code: 65547, Element: 000000,bits: 17
+Code: 65548, Element: 0000000,bits: 17
+Code: 65549, Element: 00000000,bits: 17
+Code: 65550, Element: 000000000,bits: 17
+Code: 65551, Element: 0000000000,bits: 17
+Code: 65552, Element: 00000000000,bits: 17
+Code: 65553, Element: 000000000000,bits: 17
+Code: 65554, Element: 0000000000000,bits: 17
+Code: 65543, Element: 00, Bits: 17
+Coded LZW:1021011001111141111184865543655446554565546655476554865549655506555165552655536555465543 
+Len Coded LZW: 349 [bits] 
+compression_ratio_LZW: 4.58
+Decoded LZW: fedorov000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+len(Decoded LZW): 1600 [bits]
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+original_sequence: 000000000000000000000000000000000000000o0000000000o0000r00000de00f000000000000000000000000000v000000
+Len(sequence): 1600 [bits]
+entropy: 0.5424384954442553
+
+RLE coding
+coded RLE: 3901o1001o401r501d1e201f2701v60
+len(coded): 496 [bits]
+compression_ratio_RLE: 3.23
+decoded_RLE: 000000000000000000000000000000000000000o0000000000o0000r00000de00f000000000000000000000000000v000000
+len(decoded_RLE): 1600 [bits]
+
+Code: 48, Element: 0,bits: 16
+Code: 65536, Element: 00,bits: 17
+Code: 65537, Element: 000,bits: 17
+Code: 65538, Element: 0000,bits: 17
+Code: 65539, Element: 00000,bits: 17
+Code: 65540, Element: 000000,bits: 17
+Code: 65541, Element: 0000000,bits: 17
+Code: 65542, Element: 00000000,bits: 17
+Code: 65537, Element: 000,bits: 17
+Code: 111, Element: o,bits: 16
+Code: 65543, Element: 000000000,bits: 17
+Code: 48, Element: 0,bits: 16
+Code: 65545, Element: o0,bits: 17
+Code: 65537, Element: 000,bits: 17
+Code: 114, Element: r,bits: 16
+Code: 65539, Element: 00000,bits: 17
+Code: 100, Element: d,bits: 16
+Code: 101, Element: e,bits: 16
+Code: 65536, Element: 00,bits: 17
+Code: 102, Element: f,bits: 16
+Code: 65546, Element: 0000000000,bits: 17
+Code: 65556, Element: 00000000000,bits: 17
+Code: 65540, Element: 000000,bits: 17
+Code: 118, Element: v,bits: 16
+Code: 65540, Element: 000000, Bits: 17
+Coded LZW:48655366553765538655396554065541655426553711165543486554565537114655391001016553610265546655566554011865540 
+Len Coded LZW: 417 [bits] 
+compression_ratio_LZW: 3.84
+Decoded LZW: 000000000000000000000000000000000000000o0000000000o0000r00000de00f000000000000000000000000000v000000
+len(Decoded LZW): 1600 [bits]
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+original_sequence: fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529
+Len(sequence): 1600 [bits]
+entropy: 3.121928094887362
+
+RLE coding
+coded RLE: 1f1e1d1o1r1o1v1512191f1e1d1o1r1o1v1512191f1e1d1o1r1o1v1512191f1e1d1o1r1o1v1512191f1e1d1o1r1o1v1512191f1e1d1o1r1o1v1512191f1e1d1o1r1o1v1512191f1e1d1o1r1o1v1512191f1e1d1o1r1o1v1512191f1e1d1o1r1o1v151219
+len(coded): 3200 [bits]
+compression_ratio_RLE: -
+decoded_RLE: fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529
+len(decoded_RLE): 1600 [bits]
+
+Code: 102, Element: f,bits: 16
+Code: 101, Element: e,bits: 16
+Code: 100, Element: d,bits: 16
+Code: 111, Element: o,bits: 16
+Code: 114, Element: r,bits: 16
+Code: 111, Element: o,bits: 16
+Code: 118, Element: v,bits: 16
+Code: 53, Element: 5,bits: 16
+Code: 50, Element: 2,bits: 16
+Code: 57, Element: 9,bits: 16
+Code: 65536, Element: fe,bits: 17
+Code: 65538, Element: do,bits: 17
+Code: 65540, Element: ro,bits: 17
+Code: 65542, Element: v5,bits: 17
+Code: 65544, Element: 29,bits: 17
+Code: 65546, Element: fed,bits: 17
+Code: 65539, Element: or,bits: 17
+Code: 65541, Element: ov,bits: 17
+Code: 65543, Element: 52,bits: 17
+Code: 65545, Element: 9f,bits: 17
+Code: 65537, Element: ed,bits: 17
+Code: 65552, Element: oro,bits: 17
+Code: 65549, Element: v52,bits: 17
+Code: 65555, Element: 9fe,bits: 17
+Code: 65547, Element: dor,bits: 17
+Code: 65553, Element: ov5,bits: 17
+Code: 65550, Element: 29f,bits: 17
+Code: 65556, Element: edo,bits: 17
+Code: 65548, Element: rov,bits: 17
+Code: 65554, Element: 529,bits: 17
+Code: 65551, Element: fedo,bits: 17
+Code: 65564, Element: rov5,bits: 17
+Code: 65562, Element: 29fe,bits: 17
+Code: 65560, Element: doro,bits: 17
+Code: 65558, Element: v529,bits: 17
+Code: 65566, Element: fedor,bits: 17
+Code: 65561, Element: ov52,bits: 17
+Code: 65559, Element: 9fed,bits: 17
+Code: 65557, Element: orov,bits: 17
+Code: 65554, Element: 529, Bits: 17
+Coded LZW:102101100111114111118535057655366553865540655426554465546655396554165543655456553765552655496555565547655536555065556655486555465551655646556265560655586556665561655596555765554 
+Len Coded LZW: 670 [bits] 
+compression_ratio_LZW: 2.39
+Decoded LZW: fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529fedorov529
+len(Decoded LZW): 1600 [bits]
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+original_sequence: 955e5ff99e5999fe5eef229925ffff225e9effff5ef25e9e22fe999ff525e5ee5e2f2295f52ee252f225999555922eef99e2
+Len(sequence): 1600 [bits]
+entropy: 2.321928094887362
+
+RLE coding
+coded RLE: 19251e152f291e15391f1e152e1f222912154f22151e191e4f151e1f12151e191e221f1e392f1512151e152e151e121f2219151f15122e1215121f2215393519222e1f291e12
+len(coded): 2240 [bits]
+compression_ratio_RLE: -
+decoded_RLE: 955e5ff99e5999fe5eef229925ffff225e9effff5ef25e9e22fe999ff525e5ee5e2f2295f52ee252f225999555922eef99e2
+len(decoded_RLE): 1600 [bits]
+
+Code: 57, Element: 9,bits: 16
+Code: 53, Element: 5,bits: 16
+Code: 53, Element: 5,bits: 16
+Code: 101, Element: e,bits: 16
+Code: 53, Element: 5,bits: 16
+Code: 102, Element: f,bits: 16
+Code: 102, Element: f,bits: 16
+Code: 57, Element: 9,bits: 16
+Code: 57, Element: 9,bits: 16
+Code: 65539, Element: e5,bits: 17
+Code: 65543, Element: 99,bits: 17
+Code: 57, Element: 9,bits: 16
+Code: 102, Element: f,bits: 16
+Code: 65539, Element: e5,bits: 17
+Code: 101, Element: e,bits: 16
+Code: 101, Element: e,bits: 16
+Code: 102, Element: f,bits: 16
+Code: 50, Element: 2,bits: 16
+Code: 50, Element: 2,bits: 16
+Code: 65543, Element: 99,bits: 17
+Code: 50, Element: 2,bits: 16
+Code: 65540, Element: 5f,bits: 17
+Code: 65541, Element: ff,bits: 17
+Code: 65552, Element: f2,bits: 17
+Code: 65556, Element: 25,bits: 17
+Code: 101, Element: e,bits: 16
+Code: 65544, Element: 9e,bits: 17
+Code: 65558, Element: fff,bits: 17
+Code: 102, Element: f,bits: 16
+Code: 65538, Element: 5e,bits: 17
+Code: 65552, Element: f2,bits: 17
+Code: 65538, Element: 5e,bits: 17
+Code: 65544, Element: 9e,bits: 17
+Code: 65553, Element: 22,bits: 17
+Code: 65548, Element: fe,bits: 17
+Code: 65546, Element: 999,bits: 17
+Code: 65541, Element: ff,bits: 17
+Code: 53, Element: 5,bits: 16
+Code: 65560, Element: 25e,bits: 17
+Code: 65538, Element: 5e,bits: 17
+Code: 65549, Element: e5e,bits: 17
+Code: 50, Element: 2,bits: 16
+Code: 65559, Element: f22,bits: 17
+Code: 65536, Element: 95,bits: 17
+Code: 65564, Element: f5,bits: 17
+Code: 50, Element: 2,bits: 16
+Code: 65550, Element: ee,bits: 17
+Code: 65556, Element: 25,bits: 17
+Code: 65577, Element: 2f,bits: 17
+Code: 65553, Element: 22,bits: 17
+Code: 53, Element: 5,bits: 16
+Code: 65546, Element: 999,bits: 17
+Code: 65537, Element: 55,bits: 17
+Code: 65586, Element: 59,bits: 17
+Code: 65553, Element: 22,bits: 17
+Code: 65550, Element: ee,bits: 17
+Code: 65542, Element: f9,bits: 17
+Code: 65568, Element: 9e2, Bits: 17
+Coded LZW:57535310153102102575765539655435710265539101101102505065543506554065541655526555610165544655581026553865552655386554465553655486554665541536556065538655495065559655366556450655506555665577655535365546655376558665553655506554265568 
+Len Coded LZW: 963 [bits] 
+compression_ratio_LZW: 1.66
+Decoded LZW: 955e5ff99e5999fe5eef229925ffff225e9effff5ef25e9e22fe999ff525e5ee5e2f2295f52ee252f225999555922eef99e2
+len(Decoded LZW): 1600 [bits]
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+original_sequence: 5eef9efeefefefff9ffe2f2e5f29fe5efeee2efefe5fee9f95e55e5fff22ffef2f2eeefefe2ee5effff2f99e9feeff99ee5f
+Len(sequence): 1600 [bits]
+entropy: 2.05677964944704
+
+RLE coding
+coded RLE: 152e1f191e1f2e1f1e1f1e3f192f1e121f121e151f12191f1e151e1f3e121e1f1e1f1e151f2e191f19151e251e153f222f1e1f121f123e1f1e1f1e122e151e4f121f291e191f2e2f292e151f
+len(coded): 2432 [bits]
+compression_ratio_RLE: -
+decoded_RLE: 5eef9efeefefefff9ffe2f2e5f29fe5efeee2efefe5fee9f95e55e5fff22ffef2f2eeefefe2ee5effff2f99e9feeff99ee5f
+len(decoded_RLE): 1600 [bits]
+
+Code: 53, Element: 5,bits: 16
+Code: 101, Element: e,bits: 16
+Code: 101, Element: e,bits: 16
+Code: 102, Element: f,bits: 16
+Code: 57, Element: 9,bits: 16
+Code: 65538, Element: ef,bits: 17
+Code: 65537, Element: ee,bits: 17
+Code: 102, Element: f,bits: 16
+Code: 65541, Element: efe,bits: 17
+Code: 102, Element: f,bits: 16
+Code: 65545, Element: ff,bits: 17
+Code: 57, Element: 9,bits: 16
+Code: 65545, Element: ff,bits: 17
+Code: 101, Element: e,bits: 16
+Code: 50, Element: 2,bits: 16
+Code: 102, Element: f,bits: 16
+Code: 50, Element: 2,bits: 16
+Code: 101, Element: e,bits: 16
+Code: 53, Element: 5,bits: 16
+Code: 65551, Element: f2,bits: 17
+Code: 65547, Element: 9f,bits: 17
+Code: 65553, Element: e5,bits: 17
+Code: 65541, Element: efe,bits: 17
+Code: 65537, Element: ee,bits: 17
+Code: 65552, Element: 2e,bits: 17
+Code: 65543, Element: fe,bits: 17
+Code: 65543, Element: fe,bits: 17
+Code: 65554, Element: 5f,bits: 17
+Code: 65537, Element: ee,bits: 17
+Code: 65547, Element: 9f,bits: 17
+Code: 57, Element: 9,bits: 16
+Code: 65536, Element: 5e,bits: 17
+Code: 53, Element: 5,bits: 16
+Code: 65567, Element: 5e5,bits: 17
+Code: 65545, Element: ff,bits: 17
+Code: 65551, Element: f2,bits: 17
+Code: 65550, Element: 2f,bits: 17
+Code: 65561, Element: fef,bits: 17
+Code: 65550, Element: 2f,bits: 17
+Code: 65552, Element: 2e,bits: 17
+Code: 65542, Element: eef,bits: 17
+Code: 65541, Element: efe,bits: 17
+Code: 65575, Element: 2ee,bits: 17
+Code: 65536, Element: 5e,bits: 17
+Code: 65570, Element: fff,bits: 17
+Code: 65551, Element: f2,bits: 17
+Code: 65539, Element: f9,bits: 17
+Code: 65540, Element: 9e,bits: 17
+Code: 65556, Element: 9fe,bits: 17
+Code: 65538, Element: ef,bits: 17
+Code: 65582, Element: f99,bits: 17
+Code: 65537, Element: ee,bits: 17
+Code: 65554, Element: 5f, Bits: 17
+Coded LZW:531011011025765538655371026554110265545576554510150102501015365551655476555365541655376555265543655436555465537655475765536536556765545655516555065561655506555265542655416557565536655706555165539655406555665538655826553765554 
+Len Coded LZW: 885 [bits] 
+compression_ratio_LZW: 1.81
+Decoded LZW: 5eef9efeefefefff9ffe2f2e5f29fe5efeee2efefe5fee9f95e55e5fff22ffef2f2eeefefe2ee5effff2f99e9feeff99ee5f
+len(Decoded LZW): 1600 [bits]
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+original_sequence: nuttmn0t36boe9891957xs1q94hoj32jyhwvolizmre0qoha9i19h83s3u98d6edz04faiwl9z5xx7vdjosxncovaim7ta4ptna7
+Len(sequence): 1600 [bits]
+entropy: 4.893528005004739
+
+RLE coding
+coded RLE: 1n1u2t1m1n101t13161b1o1e191819111915171x1s111q19141h1o1j13121j1y1h1w1v1o1l1i1z1m1r1e101q1o1h1a191i11191h18131s131u19181d161e1d1z10141f1a1i1w1l191z152x171v1d1j1o1s1x1n1c1o1v1a1i1m171t1a141p1t1n1a17
+len(coded): 3136 [bits]
+compression_ratio_RLE: -
+decoded_RLE: nuttmn0t36boe9891957xs1q94hoj32jyhwvolizmre0qoha9i19h83s3u98d6edz04faiwl9z5xx7vdjosxncovaim7ta4ptna7
+len(decoded_RLE): 1600 [bits]
+
+Code: 110, Element: n,bits: 16
+Code: 117, Element: u,bits: 16
+Code: 116, Element: t,bits: 16
+Code: 116, Element: t,bits: 16
+Code: 109, Element: m,bits: 16
+Code: 110, Element: n,bits: 16
+Code: 48, Element: 0,bits: 16
+Code: 116, Element: t,bits: 16
+Code: 51, Element: 3,bits: 16
+Code: 54, Element: 6,bits: 16
+Code: 98, Element: b,bits: 16
+Code: 111, Element: o,bits: 16
+Code: 101, Element: e,bits: 16
+Code: 57, Element: 9,bits: 16
+Code: 56, Element: 8,bits: 16
+Code: 57, Element: 9,bits: 16
+Code: 49, Element: 1,bits: 16
+Code: 57, Element: 9,bits: 16
+Code: 53, Element: 5,bits: 16
+Code: 55, Element: 7,bits: 16
+Code: 120, Element: x,bits: 16
+Code: 115, Element: s,bits: 16
+Code: 49, Element: 1,bits: 16
+Code: 113, Element: q,bits: 16
+Code: 57, Element: 9,bits: 16
+Code: 52, Element: 4,bits: 16
+Code: 104, Element: h,bits: 16
+Code: 111, Element: o,bits: 16
+Code: 106, Element: j,bits: 16
+Code: 51, Element: 3,bits: 16
+Code: 50, Element: 2,bits: 16
+Code: 106, Element: j,bits: 16
+Code: 121, Element: y,bits: 16
+Code: 104, Element: h,bits: 16
+Code: 119, Element: w,bits: 16
+Code: 118, Element: v,bits: 16
+Code: 111, Element: o,bits: 16
+Code: 108, Element: l,bits: 16
+Code: 105, Element: i,bits: 16
+Code: 122, Element: z,bits: 16
+Code: 109, Element: m,bits: 16
+Code: 114, Element: r,bits: 16
+Code: 101, Element: e,bits: 16
+Code: 48, Element: 0,bits: 16
+Code: 113, Element: q,bits: 16
+Code: 111, Element: o,bits: 16
+Code: 104, Element: h,bits: 16
+Code: 97, Element: a,bits: 16
+Code: 57, Element: 9,bits: 16
+Code: 105, Element: i,bits: 16
+Code: 65552, Element: 19,bits: 17
+Code: 104, Element: h,bits: 16
+Code: 56, Element: 8,bits: 16
+Code: 51, Element: 3,bits: 16
+Code: 115, Element: s,bits: 16
+Code: 51, Element: 3,bits: 16
+Code: 117, Element: u,bits: 16
+Code: 65549, Element: 98,bits: 17
+Code: 100, Element: d,bits: 16
+Code: 54, Element: 6,bits: 16
+Code: 101, Element: e,bits: 16
+Code: 100, Element: d,bits: 16
+Code: 122, Element: z,bits: 16
+Code: 48, Element: 0,bits: 16
+Code: 52, Element: 4,bits: 16
+Code: 102, Element: f,bits: 16
+Code: 97, Element: a,bits: 16
+Code: 105, Element: i,bits: 16
+Code: 119, Element: w,bits: 16
+Code: 108, Element: l,bits: 16
+Code: 57, Element: 9,bits: 16
+Code: 122, Element: z,bits: 16
+Code: 53, Element: 5,bits: 16
+Code: 120, Element: x,bits: 16
+Code: 120, Element: x,bits: 16
+Code: 55, Element: 7,bits: 16
+Code: 118, Element: v,bits: 16
+Code: 100, Element: d,bits: 16
+Code: 106, Element: j,bits: 16
+Code: 111, Element: o,bits: 16
+Code: 115, Element: s,bits: 16
+Code: 120, Element: x,bits: 16
+Code: 110, Element: n,bits: 16
+Code: 99, Element: c,bits: 16
+Code: 111, Element: o,bits: 16
+Code: 118, Element: v,bits: 16
+Code: 65602, Element: ai,bits: 17
+Code: 109, Element: m,bits: 16
+Code: 55, Element: 7,bits: 16
+Code: 116, Element: t,bits: 16
+Code: 97, Element: a,bits: 16
+Code: 52, Element: 4,bits: 16
+Code: 112, Element: p,bits: 16
+Code: 116, Element: t,bits: 16
+Code: 110, Element: n,bits: 16
+Code: 97, Element: a,bits: 16
+Code: 55, Element: 7, Bits: 16
+Coded LZW:1101171161161091104811651549811110157565749575355120115491135752104111106515010612110411911811110810512210911410148113111104975710565552104565111551117655491005410110012248521029710511910857122531201205511810010611111512011099111118656021095511697521121161109755 
+Len Coded LZW: 1555 [bits] 
+compression_ratio_LZW: 1.03
+Decoded LZW: nuttmn0t36boe9891957xs1q94hoj32jyhwvolizmre0qoha9i19h83s3u98d6edz04faiwl9z5xx7vdjosxncovaim7ta4ptna7
+len(Decoded LZW): 1600 [bits]
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
+original_sequence: 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+Len(sequence): 1600 [bits]
+entropy: -0.0
+
+RLE coding
+coded RLE: 1001
+len(coded): 64 [bits]
+compression_ratio_RLE: 25.0
+decoded_RLE: 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+len(decoded_RLE): 1600 [bits]
+
+Code: 49, Element: 1,bits: 16
+Code: 65536, Element: 11,bits: 17
+Code: 65537, Element: 111,bits: 17
+Code: 65538, Element: 1111,bits: 17
+Code: 65539, Element: 11111,bits: 17
+Code: 65540, Element: 111111,bits: 17
+Code: 65541, Element: 1111111,bits: 17
+Code: 65542, Element: 11111111,bits: 17
+Code: 65543, Element: 111111111,bits: 17
+Code: 65544, Element: 1111111111,bits: 17
+Code: 65545, Element: 11111111111,bits: 17
+Code: 65546, Element: 111111111111,bits: 17
+Code: 65547, Element: 1111111111111,bits: 17
+Code: 65543, Element: 111111111, Bits: 17
+Coded LZW:4965536655376553865539655406554165542655436554465545655466554765543 
+Len Coded LZW: 237 [bits] 
+compression_ratio_LZW: 6.75
+Decoded LZW: 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+len(Decoded LZW): 1600 [bits]
+/-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-/
